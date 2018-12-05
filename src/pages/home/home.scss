@@ -1,3 +1,33 @@
 page-home {
+   .menubuttoncolor {
+      background: color($colors, secondary, base);
+   }
 
+   .menucontent {
+      color: color($colors, light, base);
+      position: absolute;
+      width: 90%;
+      line-height: 90%;
+      height: 100%;  
+      font-family: 'Squada One', cursive;   
+      font-size: 7vw;
+     }
+
+
+     .menutile {
+      position: relative;
+      width: 45%;
+      border-radius: 25px;
+      padding: 20px; 
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      margin-left: 10px;      
+     }
+     
+     .menutile:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+     }    
 }
